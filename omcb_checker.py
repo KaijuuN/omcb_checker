@@ -1,3 +1,8 @@
+## Script by KaijuuN
+## its working but not finished
+
+
+
 import logging
 import traceback
 from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertPresentException, StaleElementReferenceException
@@ -19,7 +24,7 @@ url = "https://onemillioncheckboxes.com"
 
 # region Logger konfigurieren
 # Variablen zum Ein- oder Ausschalten des Loggings für Konsole und Datei
-ENABLE_CONSOLE_LOGGING = True
+ENABLE_CONSOLE_LOGGING = False
 ENABLE_FILE_LOGGING = False
 
 MANUAL_START = True
